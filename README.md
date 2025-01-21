@@ -1,14 +1,21 @@
 # YouTubeTranscriptSummarizer
-Overview
 
-YouTubeTranscriptSummarizer is a Python-based tool designed to extract and summarize transcripts from YouTube videos. This project simplifies the process of understanding long-form video content by generating concise summaries from the video’s spoken content.
+**A Python tool for extracting and summarizing YouTube video transcripts.**
 
-Features
+## Overview
 
-Transcript Extraction: Automatically fetches video transcripts using YouTubeTranscriptAPI.
+YouTubeTranscriptSummarizer is a Python-based tool designed to extract and summarize transcripts from YouTube video URLs. This project simplifies the process of understanding long-form video content by generating concise summaries of the video's spoken content.
 
-Natural Language Processing: Leverages spaCy to process and analyze text.
+## Features
 
-Summarization: Uses frequency-based text summarization techniques to extract key points from the transcript.
+* **Automatic Transcript Extraction:** Fetches video transcripts using the `youtube_transcript_api` library.
+* **Natural Language Processing (NLP):** Utilizes spaCy for text processing and analysis, including tokenization, part-of-speech tagging, and named entity recognition.
+* **Text Summarization:** Implements frequency-based summarization techniques to extract the most important sentences and create a concise summary.
+* **Customizable Input:** Works with any YouTube video URL that supports captioning.
+* **User-Friendly Interface:** Provides a simple and intuitive command-line interface for easy use.
 
-Customizable Input: Works with any YouTube video that supports captioning.
+## Installation
+
+1. **Install required dependencies:**
+   ```bash
+   pip install youtube-transcript-api spacy
